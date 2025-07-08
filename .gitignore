@@ -1,0 +1,28 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!README.md
+!LICENSE
+
+# And not the public folder and its contents
+!public/
+!public/**
+
+# And not the dist folder and its contents
+!dist/
+!dist/**
+
+# But ignore node_modules and other build artifacts even in public
+public/node_modules/
+public/.DS_Store
+public/Thumbs.db
+public/*.log
+public/dist/
+public/build/
+public/.env
+public/.env.local
+public/.env.development.local
+public/.env.test.local
+public/.env.production.local 
